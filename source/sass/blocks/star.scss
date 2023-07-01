@@ -1,0 +1,13 @@
+.star {
+  border: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.star__placeholder {
+  fill: $basic-white;
+}
+
+.star__input--active + .star__placeholder {
+  fill: $primary-blue;
+}

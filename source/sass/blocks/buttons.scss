@@ -1,0 +1,24 @@
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.buttons__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.buttons__item {
+  display: flex;
+  justify-content: stretch;
+}
+
+.buttons__item > * {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}

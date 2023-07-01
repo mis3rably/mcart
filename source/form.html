@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Тестовое задание для компании Эм Си Арт</h1>
+        <a class="header__link" href="index.html">На главную</a>
+      </div>
+    </header>
+    <main class="page__main">
+      <div class="form">
+        <nav class="form__navigation form-navigation">
+          <ol class="form-navigation__list">
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="lk.html">Личный кабинет</a>
+            </li>
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="section-1.html">Раздел 1</a>
+            </li>
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="section-1.html">Раздел 2</a>
+            </li>
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="section-1.html">Раздел 3</a>
+            </li>
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="section-1.html">Раздел 4</a>
+            </li>
+            <li class="form-navigation__item">
+              <a class="form-navigation__link" href="section-1.html">Раздел 5</a>
+            </li>
+          </ol>
+        </nav>
+        <aside class="form__aside aside">
+          <p class="aside__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur itaque similique libero labore eligendi omnis, dicta nesciunt, nostrum debitis neque porro, ab minus. Assumenda sequi veniam facilis? Veniam, odit quas.
+          </p>
+          <p class="aside__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil ducimus nemo qui eum corrupti fugiat voluptates, voluptatibus, odio animi eligendi tenetur aspernatur voluptas obcaecati eaque eos excepturi et officia?
+            Vel eveniet dolorum deserunt reiciendis impedit voluptate cupiditate sed similique mollitia quidem sequi ullam quas, voluptatem, iure nihil non est. Sunt nam vitae nisi ratione quas commodi, sit quos eos.
+          </p>
+        </aside>
+        <section class="form__content">
+          <div class="form__content-heading">
+            <h2 class="form__content-title">Заполните форму</h2>
+            <div class="form__content-progress">
+              <ol class="form__content-progress-list form-progress">
+                <li class="form-progress__item form-progress__item--finished">1</li>
+                <li class="form-progress__item form-progress__item--finished">2</li>
+                <li class="form-progress__item form-progress__item--current">3</li>
+                <li class="form-progress__item form-progress__item--inactive">4</li>
+                <li class="form-progress__item form-progress__item--inactive">5</li>
+              </ol>
+            </div>
+          </div>
+          <form class="form__main-form main-form" action="https://echo.htmlacademy.ru" method="get">
+            <h3 class="main-form__heading">Общая информация</h3>
+            <label class="main-form__label">
+              Фамилия*
+              <input class="main-form__input" type="text" name="surname" required>
+            </label>
+            <label class="main-form__label">
+              Имя*
+              <input class="main-form__input" type="text" name="name" required>
+            </label>
+            <label class="main-form__label">
+              Отчество*
+              <input class="main-form__input" type="text" name="patronymic" required>
+            </label>
+            <div class="main-form__wrapper">
+              Меняли Фамилию?
+              <div class="main-form__input-wrapper">
+                <label class="main-form__label">
+                  <input class="main-form__input visually-hidden" type="radio" name="change-surname" value="true">
+                  <span class="main-form__input-placeholder">Да</span>
+                </label>
+                <label class="main-form__label">
+                  <input class="main-form__input visually-hidden" type="radio" name="change-surname" value="false">
+                  <span class="main-form__input-placeholder">Нет</span>
+                </label>
+              </div>
+            </div>
+            <div class="main-form__wrapper">
+              <p class="main-form__input-text">Пол</p>
+              <div class="main-form__input-wrapper">
+                <label class="main-form__label">
+                  <input class="main-form__input visually-hidden" type="radio" name="gender" value="male">
+                  <span class="main-form__input-placeholder">Муж</span>
+                </label>
+                <label class="main-form__label">
+                  <input class="main-form__input visually-hidden" type="radio" name="gender" value="female">
+                  <span class="main-form__input-placeholder">Жен</span>
+                </label>
+              </div>
+            </div>
+            <label class="main-form__label">
+              Семейное положение
+              <select name="married" id="married">
+                <option value="married">Женат / Замужем</option>
+                <option value="single">Холост / Не замужем</option>
+              </select>
+            </label>
+            <label class="main-form__label">
+              Гражданство
+              <select name="origin" id="origin">
+                <option value="russia">Российская Федерация</option>
+                <option value="russia">Российская Федерация</option>
+                <option value="russia">Российская Федерация</option>
+              </select>
+            </label>
+              <div class="main-form__select-wrapper">
+                <p class="main-form__select-text">Дата рождения</p>
+                <select name="day" id="day">
+                  <option value="russia">11</option>
+                  <option value="russia">11</option>
+                  <option value="russia">11</option>
+                </select>
+                <select name="month" id="month">
+                  <option value="russia">июня</option>
+                  <option value="russia">июня</option>
+                  <option value="russia">июня</option>
+                </select>
+                <select name="year" id="year">
+                  <option value="russia">1970</option>
+                  <option value="russia">1970</option>
+                  <option value="russia">1970</option>
+                </select>
+              </div>
+            <label class="main-form__label main-form__label--birth">
+              Место рождения
+              <input class="main-form__input" type="text" name="location" required>
+              <span class="main-form__hint-text">Например: Россия, Комсомольск-на-Амуре</span>
+            </label>
+            <div class="main-form__button-wrapper">
+              <button class="main-form__button button button--medium" type="button">Назад</button>
+              <button class="main-form__button button button--medium" type="submit">Далее</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+.button {
+  background-color: $primary-blue;
+  border: none;
+  border-radius: 6px;
+  color: $basic-white;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  padding: 0 16px;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &--small {
+    min-width: 100px;
+    min-height: 20px;
+  }
+
+  &--medium {
+    min-width: 185px;
+    min-height: 30px;
+  }
+
+  &--big {
+    min-width: 240px;
+    min-height: 50px;
+  }
+
+  &:hover {
+    background-color: $basic-grey;
+    color: $secondary-grey;
+    transition: 0.3s;
+  }
+}

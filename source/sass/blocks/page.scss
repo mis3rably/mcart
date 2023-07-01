@@ -1,0 +1,15 @@
+.page {
+  height: 100%;
+}
+
+.page__body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.page__main {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
