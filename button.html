@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__title">Тестовое задание для компании Эм Си Арт</h1>
+        <a class="header__link" href="index.html">На главную</a>
+      </div>
+    </header>
+    <main class="page__main">
+      <div class="buttons">
+        <ul class="buttons__list">
+          <li class="buttons__item">
+            <button class="button button--medium" onclick="alert('Мой размер можно поменять с помощью модификаторов button--small, button--medium, button--big')">Кликни на меня</button>
+          </li>
+          <li class="buttons__item">
+            <a class="button button--medium" href="#">И на меня</a>
+          </li>
+          <li class="buttons__item">
+            <div class="button button--medium" onclick="alert('Я тоже кнопка, но только с виду и не семантически корректная')">И на меня</div>
+          </li>
+          <li class="buttons__item">
+            <input class="button button--medium" type="button" value="И я..">
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
